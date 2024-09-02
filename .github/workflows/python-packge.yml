@@ -33,4 +33,4 @@ jobs:
         black Kam_bikeshare_project/bikeshare_model/*.py
     - name: Lint with pylint
       run: |
-        pylint --disable=R,C bikeshare_project/bikeshare_model/{pipeline,train_pipeline,predict}.py
+        pylint --disable=R,C Kam_bikeshare_project/bikeshare_model/{pipeline,train_pipeline,predict}.py
